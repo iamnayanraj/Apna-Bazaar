@@ -1,0 +1,19 @@
+{
+  "name": "apnabazaar",
+  "version": "1.0.0",
+  "description": "ecommerce app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src\\server.js",
+    "dev":"nodemon src\\server.js"
+  },
+  "author": "Nayan Raj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mssql": "^8.1.1",
+    "sequelize": "^6.19.2"
+  }
+}
