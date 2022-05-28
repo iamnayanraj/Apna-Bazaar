@@ -1,9 +1,23 @@
 const ProductModel = require("../models/productModel");
 const ErrorHandler = require("../utils/errorHandler");
 const asyncError = require("../middlewares/asyncError");
+const pagination = require("../utils/pagination");
+const searchAndFilter = require("../utils/searchAndFilter");
+const { Op } = require("sequelize");
 
 const getAllProducts = asyncError(async (req, res, next) => {
-  const products = await ProductModel.findAll();
+  //Search and filter
+
+  let searchAndFilterParameter = searchAndFilter(req.query);
+
+  //pagination
+  const paginationObject = pagination(req.query);
+
+  const products = await ProductModel.findAll({
+    where: searchAndFilterParameter,
+    offset: paginationObject.offset,
+    limit: paginationObject.limit,
+  });
   res.status(200).json(products);
 });
 
