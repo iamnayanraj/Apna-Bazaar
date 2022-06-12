@@ -47,6 +47,10 @@ const ProductModel = sequelize.define(
       type: DataTypes.INTEGER,
       field: "ProductNumberOfReviews",
     },
+    productCreatedBy: {
+      type: DataTypes.INTEGER,
+      field: "ProductCreatedBy",
+    },
   },
   {
     tableName: "Product",

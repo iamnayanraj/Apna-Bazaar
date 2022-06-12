@@ -34,36 +34,29 @@ const getProductById = asyncError(async (req, res, next) => {
   res.status(200).json(product);
 });
 
+//Insert product
+
 const createProduct = asyncError(async (req, res, next) => {
+  req.body.productCreatedBy = req.user.userId;
   const product = await ProductModel.create(req.body);
   res.status(201).json(product);
 });
 
+//update product
+
 const updateProductById = asyncError(async (req, res, next) => {
   const id = req.params.id;
 
-  //########  update will return number of rows updated  #########
-
-  // const updatedRows = await ProductModel.update(req.body, {
-  //   where: { productId: id },
-  // });
-  // if(updatedRows==0){
-  //   return next(new ErrorHandler("Product Not Found",404));
-  // }
-
-  //############ set will return the updated record  ###################
-
-  let product = await ProductModel.findOne({
-    where: {
-      productId: id,
-    },
+  const product = await ProductModel.update(req.body, {
+    where: { productId: id },
+    returning: true,
   });
-  if (!product) {
+
+  if (product[0] == 0) {
     return next(new ErrorHandler("Product Not Found", 404));
   }
-  product.set(req.body);
-  product = await product.save();
-  res.status(200).json(product);
+  // console.log(product[1]);
+  res.status(200).json(product[1]);
 });
 
 const deleteProductById = asyncError(async (req, res, next) => {
