@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "requestResponseAuditLog.json",
+    "files": [
+        {
+            "date": 1655318827629,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\requestResponseLog.2022-06-16-00.log",
+            "hash": "bc386d78cfce8bb1d828dd730fcce5756094282a6fac3d257ebcc44aaadb28d5"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 10
+    },
+    "auditLog": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\auditlogs\\requestResponseAuditLog.json",
+    "files": [
+        {
+            "date": 1655392236426,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\requestResponseLog.2022-06-16.log",
+            "hash": "2093c0ccff18b9ffa5125a178b2d55310161b27c8a91fe1d1c62386aadf096b7"
+        },
+        {
+            "date": 1655403490455,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\requestResponseLog.2022-06-16.1.log",
+            "hash": "1906c10ce26e92d3b0209c2ad40bfbe31fa7a5cc4a13c3d36e3d028a4509d34a"
+        },
+        {
+            "date": 1655490319148,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\requestResponseLog.2022-06-17.log",
+            "hash": "e56fcade880c7877f1b079dd6a09bfc3abdf4314221ffe06b0e1bc1de5f48e14"
+        }
+    ],
+    "hashType": "sha256"
+}
