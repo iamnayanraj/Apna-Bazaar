@@ -1,7 +1,6 @@
-import toggleDarkLightMode from "./slice/toggleDarkLightMode";
-
+import productReducer from "./slice/productSlice";
 const rootReducer = {
-  toggleDarkLightMode,
+  productStore: productReducer,
 };
 
 export default rootReducer;

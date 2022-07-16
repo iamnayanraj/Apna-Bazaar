@@ -3,19 +3,18 @@ import ReactStars from "react-stars";
 import "./product.css";
 
 const Product = ({ product }) => {
-  console.log(product, product.rating);
   return (
     <>
       <div className="product">
-        <img src={product.images[0].url} alt="productimage" />
-        <h3 className="product-name">{product.name}</h3>
+        <img src={product.productImage} alt="productimage" />
+        <h3 className="product-name">{product.productName}</h3>
         <div className="review-stars-large">
           <ReactStars
             count={5}
             size={30}
             edit={false}
             half={true}
-            value={product.rating}
+            value={product.productRating}
           />
         </div>
         <div className="review-stars-medium">
@@ -24,7 +23,7 @@ const Product = ({ product }) => {
             size={20}
             edit={false}
             half={true}
-            value={product.rating}
+            value={product.productRating}
           />
         </div>
         <div className="review-stars-small">
@@ -33,10 +32,10 @@ const Product = ({ product }) => {
             size={10}
             edit={false}
             half={true}
-            value={product.rating}
+            value={product.productRating}
           />
         </div>
-        <p className="product-price">&#8377; {product.price}</p>
+        <p className="product-price">&#8377; {product.productPrice}</p>
       </div>
     </>
   );

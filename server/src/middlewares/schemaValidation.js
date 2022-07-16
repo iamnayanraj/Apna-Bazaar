@@ -13,7 +13,7 @@ const schemaValidation = asyncError(async (req, res, next) => {
     }
   }
   try {
-    await schema.validateAsync(req.body);
+    if (!typeof schema == "undefined") await schema.validateAsync(req.body);
     next();
   } catch (error) {
     next(new ErrorHandler(error.message, 400));

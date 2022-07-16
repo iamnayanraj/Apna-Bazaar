@@ -6,29 +6,54 @@
     "auditLog": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\auditlogs\\traceAuditLog.json",
     "files": [
         {
-            "date": 1655392236432,
-            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-06-16.log",
-            "hash": "47cd1b72f1043cbbccf65e3544e7e25671f11f18263f0b115ed602eb78fd4f97"
+            "date": 1657823693518,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-15.1.log",
+            "hash": "ddcf48094c6fd4af929f2f0167a206d2db757d402a3f9412c18363243c68204e"
         },
         {
-            "date": 1655403099542,
-            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-06-16.1.log",
-            "hash": "6c039944c20c92179b5128d051873c5bfb68764c05eb5a0e14fa53f9eee3b94a"
+            "date": 1657824657775,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-15.2.log",
+            "hash": "6c6b6aea7b701daaef542b26e97c74238ffa9002e34df7ff38f4d93024b31c46"
         },
         {
-            "date": 1655403384795,
-            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-06-16.2.log",
-            "hash": "fd8f56a4f37fcd8ee965e625229e43fda9869db9bc694141eb3742c0c9ac9b66"
+            "date": 1657982876449,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.log",
+            "hash": "079d19f24723f60c88dfcdb94aed1c0844e0e3a14d8997c82c8071b386ddcae8"
         },
         {
-            "date": 1655403916739,
-            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-06-16.3.log",
-            "hash": "81326c0cfd5fc53d4e0356e1873da05d161ceb0b1a3d7ec3ab4687cb9159d874"
+            "date": 1657984480301,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.1.log",
+            "hash": "a477d5105d9fc8d8360fb6e63b0151a24e38cc0ceac4e999f56cd9d9caab0521"
         },
         {
-            "date": 1655490319152,
-            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-06-17.log",
-            "hash": "8c2dd2cdc78a2ddacd6c68f81bd21ccb959b0a714288e77f58a1a1e6d64795ca"
+            "date": 1657985048657,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.2.log",
+            "hash": "8bf3dd20df805e160b792f90f15c2976dcc90599db051ba71ed77a7af42c81c8"
+        },
+        {
+            "date": 1657985857757,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.3.log",
+            "hash": "196404fb11a39bc7e8b3a12c056b9d49e84f767be094efb0ccc9a34a943d0fe1"
+        },
+        {
+            "date": 1657985950220,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.4.log",
+            "hash": "6a76994675d9673d48103acf0bb0fcf8ce35964e81154fec3c401072e3d32fdb"
+        },
+        {
+            "date": 1657986431051,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.5.log",
+            "hash": "71cfe4502ddc4b134e9a478977d12c1a6576a070d1dc0fdeedb9bbbf0f2826e3"
+        },
+        {
+            "date": 1657986668347,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.6.log",
+            "hash": "498749e4a1deda8d72f2fc5b71b22a95fee1d56e8290e9e8ba41bc734bc06fbe"
+        },
+        {
+            "date": 1657987171381,
+            "name": "D:\\fullstack\\Apna Bazaar\\server\\src\\logs\\traceLog.2022-07-16.7.log",
+            "hash": "38a0de586997c95f4b07372ae5d5b4d67fd2df926ee5cba369cdb743c1f25657"
         }
     ],
     "hashType": "sha256"

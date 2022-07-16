@@ -1,0 +1,22 @@
+.loader {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.loader div {
+  border: 0.75vmax solid #f3f3f3;
+  border-top: 0.75vmax solid #404040;
+  border-radius: 50%;
+  width: 5vmax;
+  height: 5vmax;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

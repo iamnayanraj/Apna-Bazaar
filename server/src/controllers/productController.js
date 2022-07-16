@@ -7,7 +7,6 @@ const { Op } = require("sequelize");
 
 const getAllProducts = asyncError(async (req, res, next) => {
   //Search and filter
-
   let searchAndFilterParameter = searchAndFilter(req.query);
 
   //pagination
