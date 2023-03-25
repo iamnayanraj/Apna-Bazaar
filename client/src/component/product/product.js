@@ -1,11 +1,11 @@
 import React from "react";
 import ReactStars from "react-stars";
 import "./product.css";
-
+import { Link } from "react-router-dom";
 const Product = ({ product }) => {
   return (
     <>
-      <div className="product">
+      <Link className="product" to={`/product/${product.productId}`}>
         <img src={product.productImage} alt="productimage" />
         <h3 className="product-name">{product.productName}</h3>
         <div className="review-stars-large">
@@ -36,7 +36,7 @@ const Product = ({ product }) => {
           />
         </div>
         <p className="product-price">&#8377; {product.productPrice}</p>
-      </div>
+      </Link>
     </>
   );
 };

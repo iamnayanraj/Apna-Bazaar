@@ -7,6 +7,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useSelector } from "react-redux";
 import Footer from "./component/layout/footer/footer";
 import Home from "./component/home/home";
+import ProductDetail from "./component/product/productDetail.js";
 function App() {
   React.useEffect(() => {
     webFontLoader.load({
@@ -29,6 +30,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
         <Footer />
       </BrowserRouter>

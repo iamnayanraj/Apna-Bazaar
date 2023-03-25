@@ -12,6 +12,11 @@ export const fetchProducts = createAsyncThunk("products", async () => {
   return data;
 });
 
+// export const fetchProductById = createAsyncThunk("product", async (id) => {
+//   const { data } = await axios.get(`/api/v1/product/${id}`);
+//   return data;
+// });
+
 const productSlice = createSlice({
   name: "products",
   initialState,
@@ -26,7 +31,7 @@ const productSlice = createSlice({
         state.loading = false;
         state.error = action.error.message;
         console.log(action.error);
-      });
+      })
   },
 });
 
